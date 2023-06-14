@@ -1,0 +1,16 @@
+.card{
+    cursor: pointer;
+}
+.card-img{
+    background: transparent;
+    margin-bottom: 15px;
+}
+.card-img img{
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.info-card{
+    display: flex;
+    justify-content: space-between;
+}

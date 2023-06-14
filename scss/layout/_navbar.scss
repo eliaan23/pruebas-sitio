@@ -1,0 +1,100 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar li{
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.navbar:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.ul{
+    position: relative;
+    top: 1px;
+}
+.ul:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.ul *{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.navbar ul li{
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+    color:aliceblue;
+    list-style: none;
+}
+.nav-new-balance{
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header-new-balance nav form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-new-balance nav ul {
+    display: flex;
+    align-items: center;
+}
+.header-new-balance nav ul li {
+    padding-right: 20px;
+    list-style-type: none ;
+}
+.responsive-li *{
+    color: #0a141d;
+}
+.responsive-li:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.header-new-balance .submenu {
+    grid-area: submenu;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    justify-content: center;
+}
+.submenu li{
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.submenu *{
+    color: #0a141d;
+}
+.submenu:hover{
+    color: blue;
+    text-decoration: underline;
+}
+navbar-3 *{
+    color: #0a141d;
+}
+.navbar-2 *{
+    color: #222;
+}

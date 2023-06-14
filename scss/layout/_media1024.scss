@@ -1,0 +1,18 @@
+@media screen and (max-width:1024px) {
+    .infoZapas{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: inherit;
+        gap: 1em;
+        margin: 16px;
+    }
+    .container-info-product{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-img{
+        width: 100%;
+    height: auto;
+    max-width: 80%;
+}
+}

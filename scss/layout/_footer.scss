@@ -1,0 +1,95 @@
+
+.footer{
+    background-color: dimgray;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+.preview-zapas p{
+    display: flex;
+    justify-content: center;
+}
+.zapa1{
+    position: relative;
+    top: 5px;
+}
+.zapa2{
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+.zapa3{
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+.zapa5{
+    position: relative;
+    left: 100px;
+}
+.zapa6{
+    position: relative;
+    left: 100px;
+}
+.zapa7{
+    position: relative;
+    left: 30px;
+}
+.zapa8{
+    position: relative;
+    left: 100px;
+}
+.zapa9{
+    position: relative;
+    left: 100px;
+}
+.foooter {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 20px;
+}
+.container-footer *{
+    color: white;
+}
+footer{
+    padding: 30px;
+    background-color: #eee;
+    margin-top: 50px;
+    color: #222 ;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}

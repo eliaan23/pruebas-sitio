@@ -1,0 +1,28 @@
+header{
+    background-color: dimgray;
+}
+
+.header-new-balance {
+    display: grid;
+}
+.header-new-balance input {
+    line-height: 40px;
+    width: 400px;
+    order: 1;
+}
+.logo-new-balance2{
+    font-size: 70px;
+    border: 4px solid white;
+    border-radius: 12px;
+    display: flex;
+}
+.headerClass{
+    background-color: black;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
